@@ -1,0 +1,99 @@
+.imgbox { 
+    margin-top: -8px;
+    /*position: absolute; 
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    z-index: 0;  */
+    /* src: url('./assets/images/image1.jpg'); */
+    position: relative;
+    color: #05386b;
+    
+    /* z-index: -1  */
+}
+div.imgabout span{
+    font-family: 'poppins',sans-serif;
+    font-weight: bold;
+    position: absolute;
+    top:30%;
+    left:42%;
+    
+}
+@media screen and (max-width: 500px){
+    div.imgabout span{
+        font-family: 'poppins',sans-serif;
+        font-weight: bold;
+        position: absolute;
+        top:20%;
+        left:39%;
+        
+    }
+}
+
+div.abouttext{
+    padding: 15px;
+}
+@media screen and (min-width: 600px){
+    div.abouttext{
+        text-align: center;
+        padding: 20px 105px;
+    }
+} 
+.cont{
+    margin:0px;
+}
+/* .fortxt,.forimg1,.forimg2{
+    position: relative;
+    height: 350px;
+    border: 1px solid black;
+    /* text-align: center; */
+div.mission{
+    width: 50%;
+    float:right;
+    padding: 15px;
+    height: 370px;
+    border: 1px solid black;
+}
+@media screen and (max-width: 767px){
+    div.mission{
+        width: 100%;
+        padding: 15px;
+        height: auto;
+        border: 1px solid black;
+    }
+}  
+
+div.vision{
+    width: 50%;
+    padding: 15px;
+    height: 370px;
+    border: 1px solid black;
+}
+@media screen and (max-width: 767px){
+    div.vision{
+        width: 100%;
+        clear: both;
+        padding: 15px;
+        height: auto;
+        border: 1px solid black;
+    }
+}
+.visionimg{
+    float:right;
+    clear: both;
+    height: 370px;
+    border: 1px solid black;
+}
+.missionimg{
+    height: 370px;
+    border: 1px solid black;
+}
+div.missionn{
+    width: 50%;
+    
+    float:right;
+    padding: 15px;
+    height: 300px;
+    border: 1px solid black;
+}
