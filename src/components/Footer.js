@@ -57,7 +57,7 @@ export default function Footer() {
               </MDBCol>
               <MDBCol sm='7'>
                 trucking@ramtruckingroup.com<br/>
-                +01087762<br/>
+                +1(240)4332947<br/>
                 +01823489
               </MDBCol>
               </MDBRow>
@@ -69,14 +69,14 @@ export default function Footer() {
 
       <div className='text-center p-4' style={{ backgroundColor: 'rgba(0, 0, 0, 0.05)' }}>
         ©2022 Copyright:{' '} 
-        <a className='text-reset fw-bold' href='https://ramtruckinggroup.com/'>
+        <a className='text-reset fw-bold' target='_blank'  href='https://ramtruckingroup.com/'>
           RAM Trucking Group
           <br/>
           
         </a>
         <span style={{fontSize:'0.8em', display:'inline'}}>
             Developed By {' '} 
-            <a className='text-reset ' href='https://ramtruckinggroup.com/'>
+            <a className='text-reset' target='_blank' href='https://raeygetahun.github.io/'>
             Raey Getahun
             </a>
         </span>

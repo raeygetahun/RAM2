@@ -12,7 +12,7 @@ import Typewriter from 'typewriter-effect'
 import { AiOutlineForm } from "react-icons/ai";
 import { SiGooglemaps } from "react-icons/si";
 import { AiTwotoneAccountBook } from "react-icons/ai"
-import { TbSteeringWheel } from "react-icons/tb"
+import { FaFileSignature } from "react-icons/fa"
 import { BsFillPatchCheckFill } from "react-icons/bs"
 import shipper from '../assets/images/shipper.png'
 import carrier from '../assets/images/Carrier.png'
@@ -29,7 +29,7 @@ export default function Home(){
          <div className='main'>
             <Navbarcomp/>
             <header className='imgbox wrapper1 parent'>
-            <img className='mainimage' src={mainimg1} alt='.' height='100%' width='100%' id='mainimage'/>
+            <img className='mainimage' src={mainimg1} alt='.' height='550' width='100%' id='mainimage'/>
               <section className='hero-header-text h1 title'>
                   <div className='centered' style={{fontWeight: "bold"}}>
                   <Typewriter options={{
@@ -71,9 +71,9 @@ export default function Home(){
                   </Col>
 
                   <Col xs={6} >
-                      <h1>I am a carrier</h1>
+                      <h1>I am an owner operator</h1>
                       <AiTwotoneAccountBook/> Book a load<br/>
-                      <TbSteeringWheel/> Become a carrier
+                      <FaFileSignature/> Owner operator agreement
                   </Col>
                 </Row>
               </Container>
@@ -102,7 +102,7 @@ export default function Home(){
 
               <Col className='fortxt revealfromleft'>
                 <span style={{fontSize: '1.4em',
-                fontWeight:'bold'}}>For carrier:</span><br/>
+                fontWeight:'bold'}}>For owner operators:</span><br/>
                 <BsFillPatchCheckFill/> Instantly book loads from loadboard<br/>
                 <BsFillPatchCheckFill/> GPS tracking<br/>
                 <BsFillPatchCheckFill/> 'Recommended loads' option<br/>
@@ -148,8 +148,8 @@ export default function Home(){
             4409 EMDEN Street<br/>
             Silver Spring, MD, 20906<br/>
             trucking@ramtruckingroup.com<br/>
-            +01087762<br/>
-            +01823489
+            +1 (240) 4332947<br/>
+            +1 (240) 7074513
           </Col>
 
           <Col sm={8}>

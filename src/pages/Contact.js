@@ -37,7 +37,7 @@ export default function Contact(){
             Email<br/>
             trucking@ramtruckingroup.com<br/>
             Phone<br/>
-            +01087762<br/>
+            +1(240)4332947<br/>
           </Col>
 
           <Col sm={8}>
